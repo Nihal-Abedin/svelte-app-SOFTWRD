@@ -7,7 +7,7 @@
 		<div>Name</div>
 		<div>Population</div>
 		<div>CIOC</div>
-		<div>UN Member status</div>
+		<div>UN Member</div>
 		<div>Currencies</div>
 		<div>Language</div>
 	</div>
