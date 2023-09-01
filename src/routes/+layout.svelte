@@ -13,7 +13,7 @@
 		<a href="/map">Map</a>
 		<span>/</span>
 	</div>
-	<div class="bg-white h-full p-3">
+	<div class="bg-white h-full overflow-y-auto">
 		<slot />
 	</div>
 </div>
