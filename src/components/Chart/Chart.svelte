@@ -13,7 +13,7 @@
 		.sort((a, b) => b.population - a.population)
 		.slice(1, 10);
 	let chartLabels = mostPopulatedCountires.map((p) => p.name);
-	let chartData = mostPopulatedCountires.map((popu) => popu.population / 1000000);
+	let chartData = mostPopulatedCountires.map((popu) => popu.population);
 	let ctx;
 
 	onMount(async () => {
