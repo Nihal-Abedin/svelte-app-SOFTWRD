@@ -16,6 +16,18 @@
 	let chartData = mostPopulatedCountires.map((popu) => popu.population);
 	let ctx;
 
+	const backgroundColors = [
+		'rgb(31, 41, 55)',
+		'rgb(31, 41, 80)',
+		'rgb(55, 65, 81)',
+		'rgb(75, 85, 99)',
+		'rgb(107, 114, 128)',
+		'rgb(156, 163, 175)',
+		'rgb(209, 213, 219)',
+		'hsl(220, 13%, 91%)',
+		'hsl(220, 14%, 34%)'
+	];
+
 	onMount(async () => {
 		ctx = document.getElementById('myChart');
 		new Chart(ctx, {
@@ -25,17 +37,7 @@
 				datasets: [
 					{
 						label: 'Population',
-						backgroundColor: [
-							'rgb(31, 41, 55)',
-							'rgb(31, 41, 80)',
-							'rgb(55, 65, 81)',
-							'rgb(75, 85, 99)',
-							'rgb(107, 114, 128)',
-							'rgb(156, 163, 175)',
-							'rgb(209, 213, 219)',
-							'hsl(220, 13%, 91%)',
-							'hsl(220, 14%, 34%)'
-						],
+						backgroundColor: backgroundColors,
 						data: chartData
 					}
 				]

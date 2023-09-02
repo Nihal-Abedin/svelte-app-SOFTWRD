@@ -3,7 +3,6 @@
 	import TableRow from './TableRow.svelte';
 	let countries;
 	countryDataStore.subscribe((value) => (countries = value));
-	console.log(countries);
 </script>
 
 {#each countries as country}
