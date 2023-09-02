@@ -11,7 +11,7 @@
 	}));
 	const mostPopulatedCountires = populationDataWithName
 		.sort((a, b) => b.population - a.population)
-		.slice(1, 10);
+		.slice(0, 10);
 	let chartLabels = mostPopulatedCountires.map((p) => p.name);
 	let chartData = mostPopulatedCountires.map((popu) => popu.population);
 	let ctx;
