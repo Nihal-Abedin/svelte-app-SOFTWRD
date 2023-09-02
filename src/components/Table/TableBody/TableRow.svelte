@@ -3,9 +3,7 @@
 	export let country;
 	//
 	const currencySym = country?.currencies ? Object.keys(country?.currencies)[0] : '-';
-	const language = country?.languages
-		? Object.values(country?.languages).slice(0, 2).join(',')
-		: '-';
+	const language = country?.languages ? Object.values(country?.languages).join(',') : '-';
 </script>
 
 <main class="border-t-2">
