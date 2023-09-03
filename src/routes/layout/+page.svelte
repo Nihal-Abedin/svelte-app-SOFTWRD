@@ -1,9 +1,5 @@
 <script>
-	import { countryDataStore } from '../../stores';
-	import Mountain from './../../lib/Mountain/Mountain.svelte';
-	let data;
-	countryDataStore.subscribe((value) => (data = value));
-	console.log(data);
+	import Mountain from '../../../src/Mountain/Mountain.svelte';
 </script>
 
 <div class="grid sm:grid-cols-12 sm:grid-rows-6 grid-cols-6 grid-rows-4 text-center h-full">

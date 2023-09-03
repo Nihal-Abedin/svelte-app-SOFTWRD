@@ -15,27 +15,28 @@
 		width: 200px;
 		height: 200px;
 		border-radius: 50%;
-		position: relative;
 		overflow: hidden;
+		position: relative;
 		transform: rotate(45deg);
 	}
 	.cover::before,
 	.cover::after {
 		content: '';
-		position: absolute;
 		background: #fe5f55;
+		position: absolute;
 	}
 	.cover::before {
-		width: 30px;
-		height: 30px;
-		bottom: 0;
-		right: 50%;
+		width: 40px;
+		height: 40px;
+		bottom: -5%;
+		right: 45%;
 	}
 	.cover::after {
 		width: 50%;
 		height: 100%;
 		bottom: -10%;
-		left: 50%;
 		right: 42px;
+		/* top: 70%; */
+		left: 50%;
 	}
 </style>

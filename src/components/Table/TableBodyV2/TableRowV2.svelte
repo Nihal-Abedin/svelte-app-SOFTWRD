@@ -17,7 +17,7 @@
 		<div class="h-full w-full flex justify-center items-center">
 			<p
 				class={`${
-					country.unMember ? 'bg-slate-500' : 'bg-stone-400'
+					country.unMember ? 'bg-stone-400' : 'bg-slate-500'
 				} w-fit px-2 rounded-md text-white`}
 			>
 				{country.unMember ? 'Yes' : 'No'}
