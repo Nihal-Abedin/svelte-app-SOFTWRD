@@ -1,5 +1,5 @@
 <script>
-	import Mountain from '../../../src/Mountain/Mountain.svelte';
+	import Mountain from '../../components/Mountain/Mountain.svelte';
 </script>
 
 <div class="grid sm:grid-cols-12 sm:grid-rows-6 grid-cols-6 grid-rows-4 text-center h-full">
