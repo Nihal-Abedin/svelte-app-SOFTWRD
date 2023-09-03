@@ -1,6 +1,6 @@
 # Svelte Project Name
 
-Svelte project Assesment.
+Svelte project Assessment.
 
 ## Prerequisites
 
