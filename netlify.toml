@@ -1,0 +1,9 @@
+[[redirect]]
+    from ="/*"
+    to="../src/app.html"
+    status=200
+
+[build]
+    command = "yarn run build"
+    publish = "build/"
+    functions = "functions/"
