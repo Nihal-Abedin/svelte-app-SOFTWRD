@@ -1,5 +1,3 @@
-<!-- Map.svelte -->
-
 <script>
 	import { onMount } from 'svelte';
 	import GeoJSON from 'ol/format/GeoJSON';
