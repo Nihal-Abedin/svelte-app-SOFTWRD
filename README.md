@@ -14,7 +14,7 @@ Follow the steps below to set up and run the Svelte app on your machine.
 
 ### Running with Yarn
 
-1. Clone the repository: `git clone git@github.com:Nihal-Abedin/svelte-app-SOFTWRD.git`
+1. Clone the repository : `git clone git@github.com:Nihal-Abedin/svelte-app-SOFTWRD.git`
 2. Navigate to the project directory: `cd svelte-app-SOFTWRD`
 3. Install dependencies: `yarn install`
 4. Start the development server: `yarn run dev`

@@ -26,7 +26,7 @@
 	const mapGeoJson = new VectorLayer({
 		source: new VectorSource({
 			format: new GeoJSON(),
-			url: '../../../src/countries.geojson' // Replace with your GeoJSON file path
+			url: '../../../src/countries.geojson'
 		}),
 		style: [mapStyle]
 	});
